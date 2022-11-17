@@ -1,0 +1,40 @@
+img{
+    border-radius: 0.5rem;
+    height:600px;
+    width:500px
+
+    
+}
+
+img .medium{
+    max-width: 29rem;
+    width: 100%;
+}
+
+.card{
+    border: 1rem #c0c0c0 solid;
+    background-color: #f8f8f8f8;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.card-body > *{ /*i mean all direct child of chard body */
+
+   margin-bottom: 0.5rem;/*space between items*/
+     
+}
+
+.price{
+    font-size: 2rem;
+}
+
+/*Rating*/
+
+.rating span {
+    color:#f0c040;
+    margin:0.1rem;
+}
